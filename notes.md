@@ -15,7 +15,26 @@ https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_Service_IP_and_Servic
 ```bash
 kubectl create deployment hello-node --image=k8s.gcr.io/echoserver:1.4
 
-kubectl expose deployment < NAME-OF-DEPLOYMENT > --name=nodeport --port=80 --target-port=8080 --type=NodePort
+kubectl expose deployment < NAME-OF-DEPLOYMENT > --name=FirstNodeportSvc --port=80 --target-port=8080 --type=NodePort
 
-kubectl port-forward --address 0.0.0.0 svc/nodeport 31213:80 &
+kubectl port-forward --address 0.0.0.0 svc/FirstNodeportSvc 31213:80 &
 ```
+
+Explanation
+
+1. `kubectl port-forward`: This is a kubectl command used to forward one or more local ports to a pod. It's useful for accessing applications in a Kubernetes cluster from your local machine.
+
+1. `--address 0.0.0.0`: By default, port-forward binds only to 127.0.0.1, which means it can only be accessed from the local machine. The --address 0.0.0.0 flag changes this behavior to bind to all network interfaces. This makes the forwarded port accessible from external machines. However, be cautious when using this, as it exposes the port to the entire network.
+
+1. `svc/hello-minikube`: This specifies the target for port forwarding. In this case, it's a service named hello-minikube. Typically, port-forward is used with pods, but it can also be used with services, deployments, and replicasets.
+
+1. `31183:8080`: This defines the port mapping:
+
+* `31183`: This is the local port on your machine.
+* `8080`: This is the port on the hello-minikube service in the Kubernetes cluster.
+
+    With this mapping, any traffic sent to port 31183 on your local machine will be forwarded to port 8080 on the hello-minikube service in the cluster.
+
+1. `&`: This is a shell command to run the kubectl port-forward command in the background. This allows you to continue using the terminal without waiting for the command to complete.
+
+In summary, this command forwards traffic from port 31183 on all network interfaces of your local machine to port 8080 on the hello-minikube service in the Kubernetes cluster
