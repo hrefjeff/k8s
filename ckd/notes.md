@@ -2,6 +2,9 @@
 
 Started mumshad's CKD course
 
+Cert discount code: 20KLOUD
+https://www.cncf.io/certification/ckad/
+
 ## CKD Course objectives
 
 1. Core Concepts
