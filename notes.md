@@ -1,3 +1,26 @@
+# Output with kubectl
+
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/ great resource
+
+`master $ kubectl create namespace test-123 --dry-run -o yaml`
+
+will yield
+
+```yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: test-123
+spec: {}
+status: {}
+
+```
+
+`kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx-pod.yaml`
+
+will yyield
+
 # Services
 
 The way Kubernetes allows applications to be exposed to outside users

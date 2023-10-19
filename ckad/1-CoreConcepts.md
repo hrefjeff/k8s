@@ -107,5 +107,42 @@ Kind of works along with kubelet. If you create stuff with `crictl`, then kubele
 
 `kubectl run nginx --image nginx`
 
+## Yaml in K8s
+
+All k8s yaml files have 4 basic sections.
+
+```yaml
+--- # the three dashes define a new document
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  # Where we provide info about what the definition file
+  containers:
+    - name: nginx-container # the - indicates this is a list
+      image: nginx
+```
+
+`kubectl get pods` - gets a list of pods
+
+`kubectl describe pod podname` - describes a pod, such as events and stuff
+
 # Create and Configure Pods
 
+## Replication Controller (Old)
+
+Used to create multiple pods to distribute load across them.
+
+![ReplicaSet](images/replicaset.png)
+
+## Replicaset (New and used)
+
+The replicaset has a selector key. Selector section specifies what pods the replicaset manages.
+
+The replicaset can manage pods that were not part of the deployment of the replicaset. So it will take into consideration the pods that are already present when the replicaset is created.
+
+![ReplicaSetLabels](images/labels-selectors.png)
