@@ -1,3 +1,9 @@
+# Kubernetes the hard way
+
+https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master 
+
+https://www.youtube.com/watch?v=Z-Pxl84WNGo 
+
 # Output with kubectl
 
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/ great resource
