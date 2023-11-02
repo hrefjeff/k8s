@@ -4,6 +4,13 @@ https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master
 
 https://www.youtube.com/watch?v=Z-Pxl84WNGo 
 
+# Debugging tips
+
+`journalctl -u containerd -e`
+
+-u - unit
+-e - jump to end of journal
+
 # Output with kubectl
 
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/ great resource
