@@ -1,8 +1,8 @@
 # Kubernetes the hard way
 
-https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master 
+https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master
 
-https://www.youtube.com/watch?v=Z-Pxl84WNGo 
+https://www.youtube.com/watch?v=Z-Pxl84WNGo
 
 # Debugging tips
 
@@ -74,3 +74,7 @@ Explanation
 1. `&`: This is a shell command to run the kubectl port-forward command in the background. This allows you to continue using the terminal without waiting for the command to complete.
 
 In summary, this command forwards traffic from port 31183 on all network interfaces of your local machine to port 8080 on the hello-minikube service in the Kubernetes cluster
+
+# Deploying a django app to a k8s cluster
+
+https://mattermost.com/blog/orchestrate-django-application-with-kubernetes/

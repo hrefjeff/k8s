@@ -13,4 +13,8 @@ https://opensource.com/article/20/5/helm-charts
 
 I couldn't get to the service deployed within the k8s cluster until I ran `minikube service --all`. There are no networking routes on the host to the service CIDR address until this happens and uses the cluster's IP address as a gateway
 
+## Resources
+
 https://www.devopsschool.com/blog/minikube-tutorials-minikube-tunnel-explained/
+
+https://devopscube.com/create-helm-chart/
