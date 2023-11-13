@@ -1,3 +1,11 @@
+# Deployed a django app in k8s cluster w/ nginx & postgres
+
+https://collabnix.com/kubernetes-on-docker-desktop-in-2-minutes/
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+https://mattsegal.dev/nginx-django-reverse-proxy-config.html
+
+Amazing resources. Explains django reverse proxy and a great utility that visualizes k8s resources
+
 # Kubernetes the hard way
 
 https://github.com/kelseyhightower/kubernetes-the-hard-way/tree/master
