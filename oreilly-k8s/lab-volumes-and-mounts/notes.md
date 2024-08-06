@@ -1,5 +1,11 @@
 # Volumes and Mounts
 
+https://kubernetes.io/docs/tasks/configure-pod-container/configure-volume-storage/
+
+https://kubernetes.io/docs/concepts/storage/volumes/
+
+https://kubernetes-csi.github.io/docs/drivers.html
+
 ## EmptyDir Volume
 
 Since a Pod lifecycle exists on a single Node, then each Pod on a Node stores its files on the Node. The Kubelet takes care of all this file management since it's managing the Pods on the Node. Each emptyDir can typically be found on the Node in /var/lib/kubelet/pods/. However, you should never couple to these files directly. It's a private matter between the Pods and the Kublets, so butt out.
