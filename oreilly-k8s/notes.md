@@ -1,4 +1,4 @@
-# Oreilly 1st half of 8 hr course
+# Resources found on Oreily
 
 
 https://artifacthub.io/ charts & operators found here
@@ -35,3 +35,7 @@ kubectl get gateway
 # Grep more efficiently
 kubectl get destinationrules reviews -o yaml | grep -B2 -A20 "host: reviews"
 ```
+
+## Networking
+
+https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/troubleshooting-cni-plugin-related-errors/ 
