@@ -4,7 +4,14 @@
 
 You can use a simple HTTP server, such as `nginx`, to serve the file
 
-1. Create an nginx pod that will act as a file server
+1. Create a directory and change permissions
+
+```bash
+mkdir /path/to/your/file/directory
+chmod -R 755 /path/to/your/file/directory
+```
+
+2. Create an nginx pod that will act as a file server
 
 ```yaml
 apiVersion: v1
@@ -29,7 +36,7 @@ spec:
         type: Directory
 ```
 
-2. Create svc to expose nginx pod
+3. Create svc to expose nginx pod
 
 ```yaml
 apiVersion: v1
@@ -54,7 +61,7 @@ spec:
         type: Directory
 ```
 
-3. Curl the file to get the download
+4. Curl the file to get the download
 
 ```sh
 # For example, if your node IP is `192.168.1.2` and NodePort is `32456`
