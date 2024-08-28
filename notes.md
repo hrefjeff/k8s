@@ -1,3 +1,11 @@
+# Prod cluster app installs
+
+1. Flux - provides kustomizations and 
+2. Metallb
+
+https://metallb.universe.tf/installation/
+https://metallb.universe.tf/configuration/ 
+
 # Deployed a django app in k8s cluster w/ nginx & postgres
 
 https://collabnix.com/kubernetes-on-docker-desktop-in-2-minutes/
