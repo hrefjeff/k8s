@@ -1,0 +1,9 @@
+apiVersion: metallb.io/v1beta1
+kind: BGPConfiguration
+metadata:
+  name: test-bgp
+  namespace: metallb-system
+spec:
+  serviceLoadBalancerIPs:
+  - cidr: 1.2.3.4/24
+  - cidr: 1.2.3.9/28

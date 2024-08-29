@@ -1,0 +1,9 @@
+apiVersion: metallb.io/v1beta1
+kind: IPAddressPool
+metadata:
+  name: first-pool
+  namespace: metallb-system
+spec:
+  adresses:
+  - 1.2.3.4-1.2.3.9
+  avoidBuggyIPs: true
