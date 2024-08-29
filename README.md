@@ -2,6 +2,8 @@
 
 # Jeff's Kubernetes Journey
 
+* The best k8s simulator and something I use every day [killercoda](https://killercoda.com/)
+
 ## Certified Kubernetes Admin Certification
 
 I earned my CKA certification Mar 19th, 2023. 2 ways to verify the certification 
