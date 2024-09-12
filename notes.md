@@ -1,4 +1,22 @@
-# Prod cluster app installs
+# K8s Notes
+
+## 2024-09-12
+
+Common misconfigs of K8s - https://arxiv.org/pdf/2408.03714
+ 
+Kubernetes Deployment Options for On-Prem Clusters --- https://arxiv.org/pdf/2407.01620
+
+Disaster recovery - https://arxiv.org/pdf/2402.02938
+
+Gap between School and Software Jobs - https://arxiv.org/pdf/2303.15597
+
+Helm - https://arxiv.org/pdf/2206.07093
+
+Deploy microservices with docker, k8s, and istio - https://arxiv.org/pdf/1911.02275
+
+## Earlier than Sept 2024
+
+Prod cluster app installs
 
 1. Flux - provides kustomizations and 
 2. Metallb
