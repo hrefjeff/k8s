@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-svc
+spec:
+  type: NodePort
+  ports:            # Reminder: Ports #'s are from the svc perspective
+  - port: 80        # The svc's port
+    protocol: TCP
+    targetPort: 80  # The container's port
+    nodePort: 31000   # Default would be 30000-32767
+  selector:
+    app: nginx
