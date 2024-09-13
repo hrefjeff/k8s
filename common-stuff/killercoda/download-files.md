@@ -1,5 +1,14 @@
 # KillerCoda Tricks
 
+# Current ways of doing thigs
+
+## Download files from killercoda
+
+* Open the editor tab
+* Right click the file you want to download, and download it
+
+# Old ways of doing things
+
 ## Expose a service that will allow you to download a file from killercoda
 
 You can use a simple HTTP server, such as `nginx`, to serve the file
