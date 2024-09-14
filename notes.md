@@ -1,5 +1,32 @@
 # K8s Notes
 
+## 2024-09-14
+
+Read a couple papers today
+
+### Helm
+
+https://arxiv.org/pdf/2206.07093
+
+Deploying apps to kubernetes requires sending manifest files to the control plane interface.
+
+https://docs.teamhephy.info/ Created by Deis and graduated from the CNCF
+
+### Deploy microservices with docker, k8s, and istio
+
+https://arxiv.org/pdf/1911.02275
+
+On-prem vs. Cloud hosted apps.
+* Up-front costs are removed by using cloud hosted apps
+* On-prem deployments require security and network engineers
+* As usage grows the costs increase exponentially. Snapchat pays google 2B and amazon 1B as of 2018
+
+Triphasic incremental approach
+
+1. Separation
+2. Transition - Something that istio can help with using canary deployments and traffic balancing. Need cooperation between development teams and operation team
+4. Completion
+
 ## 2024-09-12
 
 Common misconfigs of K8s - https://arxiv.org/pdf/2408.03714
