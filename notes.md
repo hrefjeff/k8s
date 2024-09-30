@@ -1,5 +1,13 @@
 # K8s Notes
 
+## 2024-09-30
+
+Get images from all pods running
+
+```bash
+kubectl get pods -o yaml | grep image: | sed -r 's/^.*image: (.+)/\1/' | sort | uniq 
+```
+
 ## 2024-09-14
 
 Read a couple papers today
