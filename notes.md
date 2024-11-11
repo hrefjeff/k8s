@@ -1,5 +1,13 @@
 # K8s Notes
 
+## 2024-11-10
+
+https://collabnix.com/kubernetes-on-docker-desktop-in-2-minutes/
+
+https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0
+
+https://mattsegal.dev/nginx-django-reverse-proxy-config.html
+
 ## 2024-09-30
 
 Get images from all pods running
