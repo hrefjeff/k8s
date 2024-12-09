@@ -1,5 +1,15 @@
 # K8s Notes
 
+## 2024-12-09
+
+```bash
+# Create an ssl secret
+k create secret tls <secret name> \
+ -n <namespace> \
+ --cert=<certificate name>.crt --key=<certificate key>.key \
+ --dry-run=client -o <secret name>.yaml
+```
+
 ## 2024-11-10
 
 https://collabnix.com/kubernetes-on-docker-desktop-in-2-minutes/
