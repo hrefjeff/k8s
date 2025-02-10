@@ -23,7 +23,7 @@ https://mattsegal.dev/nginx-django-reverse-proxy-config.html
 Get images from all pods running
 
 ```bash
-kubectl get pods -o yaml | grep image: | sed -r 's/^.*image: (.+)/\1/' | sort | uniq 
+kubectl get pods -n <NAMESPACE> -o yaml | grep image: | sed -r 's/^.*image: (.+)/\1/' | sort | uniq 
 ```
 
 ## 2024-09-14
