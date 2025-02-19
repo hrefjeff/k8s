@@ -1,5 +1,16 @@
 # K8s Notes
 
+## 2025-02-19
+
+Killercoda updated the way you expose apps to the internet
+
+```bash
+kubectl port-forward service/frontend 8080:80 --address 0.0.0.0
+```
+
+Have to add the address flag to specify the interface to be used
+
+
 ## 2024-12-09
 
 ```bash
@@ -23,7 +34,7 @@ https://mattsegal.dev/nginx-django-reverse-proxy-config.html
 Get images from all pods running
 
 ```bash
-kubectl get pods -n <NAMESPACE> -o yaml | grep image: | sed -r 's/^.*image: (.+)/\1/' | sort | uniq 
+kubectl get pods -n <NAMESPACE> -o yaml | grep image: | sed -r 's/^.*image: (.+)/\1/' | sort | uniq
 ```
 
 ## 2024-09-14
@@ -56,7 +67,7 @@ Triphasic incremental approach
 ## 2024-09-12
 
 Common misconfigs of K8s - https://arxiv.org/pdf/2408.03714
- 
+
 Kubernetes Deployment Options for On-Prem Clusters --- https://arxiv.org/pdf/2407.01620
 
 Disaster recovery - https://arxiv.org/pdf/2402.02938
@@ -71,11 +82,11 @@ Deploy microservices with docker, k8s, and istio - https://arxiv.org/pdf/1911.02
 
 Prod cluster app installs
 
-1. Flux - provides kustomizations and 
+1. Flux - provides kustomizations and
 2. Metallb
 
 https://metallb.universe.tf/installation/
-https://metallb.universe.tf/configuration/ 
+https://metallb.universe.tf/configuration/
 
 # Deployed a django app in k8s cluster w/ nginx & postgres
 

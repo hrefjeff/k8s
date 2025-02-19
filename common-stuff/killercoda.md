@@ -1,6 +1,12 @@
 # KillerCoda Tricks
 
-# Current ways of doing thigs
+## Expose a svc to be accessed from a browser
+
+```bash
+cat /etc/killerkoda/host # get the url
+kubectl port-forward svc/frontend 8080:80 --address 0.0.0.0
+```
+
 
 ## Download files from killercoda
 
