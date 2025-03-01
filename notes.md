@@ -1,5 +1,11 @@
 # K8s Notes
 
+## 2025-02-28
+
+AWS Example k8s app architecture
+
+https://github.com/aws-containers/retail-store-sample-app
+
 ## 2025-02-19
 
 Killercoda updated the way you expose apps to the internet
