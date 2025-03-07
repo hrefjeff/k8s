@@ -6,6 +6,8 @@ AWS Example k8s app architecture
 
 https://github.com/aws-containers/retail-store-sample-app
 
+https://aws.amazon.com/blogs/opensource/using-istio-traffic-management-to-enhance-user-experience/
+
 ## 2025-02-19
 
 Killercoda updated the way you expose apps to the internet
