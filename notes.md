@@ -1,5 +1,19 @@
 # K8s Notes
 
+## 2025-03-07
+
+Layers of the k8s cluster
+
+### Base layers
+
+1. OS
+2. Kubernetes
+3. Networking plugin (cilium becoming the best, calico is ok, weavenet)
+4. Storage (some csi driver)
+
+### App layers
+
+
 ## 2025-02-28
 
 AWS Example k8s app architecture
