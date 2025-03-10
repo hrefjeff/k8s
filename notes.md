@@ -1,5 +1,11 @@
 # K8s Notes
 
+## 2025-03-10
+
+https://docs.aws.amazon.com/eks/latest/userguide/auto-elb-example.html
+
+https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
+
 ## 2025-03-07
 
 Layers of the k8s cluster
