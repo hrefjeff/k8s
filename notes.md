@@ -1,5 +1,11 @@
 # K8s Notes
 
+## 2025-03-22
+
+https://github.com/packtpublishing/the-kubernetes-bible-second-edition
+
+https://static.packt-cdn.com/downloads/9781835464717_ColorImages.pdf 
+
 ## 2025-03-10
 
 https://docs.aws.amazon.com/eks/latest/userguide/auto-elb-example.html
