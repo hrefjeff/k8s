@@ -1,10 +1,12 @@
 # K8s Notes
 
+## 2025-03-23
+
+OIDC login for kubectl commands https://github.com/int128/kubelogin 
+
 ## 2025-03-22
 
-https://github.com/packtpublishing/the-kubernetes-bible-second-edition
-
-https://static.packt-cdn.com/downloads/9781835464717_ColorImages.pdf 
+[Kubernetes Bible: Second Edition](https://github.com/packtpublishing/the-kubernetes-bible-second-edition) with [images](https://static.packt-cdn.com/downloads/9781835464717_ColorImages.pdf) 
 
 ## 2025-03-10
 
