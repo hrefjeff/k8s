@@ -1,5 +1,13 @@
 # K8s Notes
 
+## 2025-04-22
+
+Worked with AKS today.
+
+Deploying a cluster on AKS failed multiple times because of the subscription. It's definitely better to deploy with code rather than going through the UI on this.
+
+K8s bibile has [this advanced section working with AKS](https://github.com/PacktPublishing/The-Kubernetes-Bible-Second-Edition/tree/main/Chapter21)
+
 ## 2025-03-23
 
 OIDC login for kubectl commands https://github.com/int128/kubelogin 
