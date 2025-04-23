@@ -8,6 +8,8 @@ Deploying a cluster on AKS failed multiple times because of the subscription. It
 
 K8s bibile has [this advanced section working with AKS](https://github.com/PacktPublishing/The-Kubernetes-Bible-Second-Edition/tree/main/Chapter21)
 
+[When to choose which networking solution on ASK](https://learn.microsoft.com/en-us/azure/aks/azure-cni-overlay?tabs=kubectl#choosing-a-network-model-to-use)
+
 ## 2025-03-23
 
 OIDC login for kubectl commands https://github.com/int128/kubelogin 
