@@ -1,5 +1,11 @@
 # K8s Notes
 
+## 2025-08-24
+
+[Ingress refresh](https://kubernetes.io/docs/concepts/services-networking/ingress/?ref=toolchain-labs-engineering-blog)
+
+[cluster DNS troubleshooting](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/)
+
 ## 2025-04-22
 
 Worked with AKS today.
