@@ -1,6 +1,6 @@
 # K8s Notes
 
-## 2025-08-24
+# 2025-08-24
 
 [Ingress refresh](https://kubernetes.io/docs/concepts/services-networking/ingress/?ref=toolchain-labs-engineering-blog)
 
@@ -470,21 +470,21 @@ https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/scc-5.8_rhel8_oracle-linux
 
 https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/scc-5.8_Windows_bundle.zip
 
-## 2025-03-23
+# 2025-03-23
 
 OIDC login for kubectl commands https://github.com/int128/kubelogin 
 
-## 2025-03-22
+# 2025-03-22
 
 [Kubernetes Bible: Second Edition](https://github.com/packtpublishing/the-kubernetes-bible-second-edition) with [images](https://static.packt-cdn.com/downloads/9781835464717_ColorImages.pdf) 
 
-## 2025-03-10
+# 2025-03-10
 
 https://docs.aws.amazon.com/eks/latest/userguide/auto-elb-example.html
 
 https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
 
-## 2025-03-07
+# 2025-03-07
 
 Layers of the k8s cluster
 
@@ -498,7 +498,7 @@ Layers of the k8s cluster
 ### App layers
 
 
-## 2025-02-28
+# 2025-02-28
 
 AWS Example k8s app architecture
 
@@ -506,7 +506,7 @@ https://github.com/aws-containers/retail-store-sample-app
 
 https://aws.amazon.com/blogs/opensource/using-istio-traffic-management-to-enhance-user-experience/
 
-## 2025-02-19
+# 2025-02-19
 
 Killercoda updated the way you expose apps to the internet
 
